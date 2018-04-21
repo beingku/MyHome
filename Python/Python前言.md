@@ -65,26 +65,26 @@ Namespaces are one honking great idea -- let's do more of those!
 - Linux环境
 Linux环境自带Python2.x版本。如果要安装3.x版本。
 
-  1. 首先安装依赖库
+1. 首先安装依赖库
 
   ```shell
 $ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
   ```
 
-  2. 下载源码并解压
+2. 下载源码并解压
 
   ```shell
 $ wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz
 $ tar -xzf Python-3.6.5.tar.xz
   ```
 
-  3. 切换到Python源代码目录执行下面操作
+3. 切换到Python源代码目录执行下面操作
   ```shell
 $ cd Python-3.6.5
 $ ./configure --prefix=/usr/local/python3.6 --enable-optimizations
 $ make && make install
   ```
-  4. 创建软链接,可以直接通过python3直接启动Python解释器。
+4. 创建软链接,可以直接通过python3直接启动Python解释器。
   ```shell
 $ ln -s /usr/local/python3.6/bin/python3 /usr/bin/python3
   ```
