@@ -35,7 +35,8 @@ NumPy、SciPy、Matplotlib可以让Python程序员编写科学计算程序。有
 ### 为什么选择Python
 Python的设计哲学是“优雅”、“明确”、“简单”。Python开发者的哲学是“用一种方法，最好是只有一种方法来做一件事”，也因此它和拥有明显个人风格的其他语言很不一样。
 附上Python之禅
->The Zen of Python
+```
+The Zen of Python
 by Tim Peters
 Beautiful is better than ugly.
 Explicit is better than implicit.
@@ -56,7 +57,7 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
-
+```
 ### Python的安装
 - Windows环境
 前往[官网](https://www.python.org/downloads/)选择相应的版本下载（.exe文件），安装前要注意本机是否有Service Pack 1补丁包（win7之后的版本都有，win7打开系统属性查看是否有该补丁包。没有可以windosw更新重要更新中安装)。安装过程建议勾选“Add Python 3.6 to PATH”（将Python 3.6添加到PATH环境变量）并选择自定义安装，在设置“Optional Features”界面最好将“pip”、“tcl/tk”、“Python test suite”等项全部勾选上。强烈建议使用自定义的安装路径并保证路径中没有中文。
@@ -64,14 +65,18 @@ Namespaces are one honking great idea -- let's do more of those!
 - Linux环境
 Linux环境自带Python2.x版本。如果要安装3.x版本。
   1. 首先安装依赖库
+
   ```shell
 $ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel
   ```
+
   2. 下载源码并解压
+
   ```shell
 $ wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tar.xz
 $ tar -xzf Python-3.6.5.tar.xz
   ```
+
   3. 切换到Python源代码目录执行下面操作
   ```shell
 $ cd Python-3.6.5
