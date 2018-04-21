@@ -64,6 +64,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 - Linux环境
 Linux环境自带Python2.x版本。如果要安装3.x版本。
+
   1. 首先安装依赖库
 
   ```shell
