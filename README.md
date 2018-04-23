@@ -11,4 +11,4 @@
    - [数据库前言](sql/sql_info.md)
    - [SQL语法基础](sql/sql)
 5. [Django开发](Django)
-   - [Django背景知识](Django_bg.md)
+   - [Django背景知识](Django/Django_bg.md)
