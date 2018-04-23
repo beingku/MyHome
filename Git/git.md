@@ -1,5 +1,8 @@
----
-Auther:sinpei Email:sinpeilee@163.com Date: 2018-4-20
+# Git的使用说明
+
+>Auther:sinpei 
+>Email:sinpeilee@163.com 
+>Date: 2018-4-20
 
 ---
 
