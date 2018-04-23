@@ -1,3 +1,8 @@
+---
+Auther:sinpei Email:sinpeilee@163.com Date: 2018-4-20
+
+---
+
 ## Git是什么
 ```
 一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。
