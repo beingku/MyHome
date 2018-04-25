@@ -13,3 +13,5 @@
 5. [Django开发](Django)
    - [Django背景知识](Django/Django_bg.md)
    - [Django管理后台](Django/Django_admin.md)
+   - [Django模型](Django/Django_models)
+   		- [Django模型（一）](Django/Django_models/models1.md)
