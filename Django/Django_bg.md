@@ -1,4 +1,4 @@
-# Django开发知识（一）
+ # Django开发知识（一）
 
 >Author:Sinpei 
 >Date: 2018-4-23
@@ -140,7 +140,14 @@ url('', include('appname.urls'))
 ```
 
 ---
-#### 8.app简介
+#### 8.项目结构简介
+>项目结构
+_ _ init _ _ .py: 初始化，配置py的初始化文件
+settings.py:项目配置文件
+urls.py：路由配置文件
+wsgi.py: 网关
+
+
 > app是项目中一个功能模块的具体实现。
 _ _ init_ _ .py：app初始化
 apps.py: settings.py里面注册app的时候需要使用到。一般不推荐这样使用
