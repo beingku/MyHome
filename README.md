@@ -12,3 +12,4 @@
    - [SQL语法基础](sql/sql)
 5. [Django开发](Django)
    - [Django背景知识](Django/Django_bg.md)
+   - [Django管理后台](Django/Django_admin.md)
