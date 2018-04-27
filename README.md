@@ -15,3 +15,7 @@
    - [Django管理后台](Django/Django_admin.md)
    - [Django模型](Django/Django_models)
    		- [Django模型（一）](Django/Django_models/models1.md)
+   		- [Django模型（二）](Django/Django_models/models2.md)
+   - [Django模版](Django/Django_templates.md)
+   - [Django视图](Django/Django_views)
+   		- [Url说明](Django/Django_views/Django_urls.md)
