@@ -84,8 +84,12 @@ Django提供了不同的层级的url逆向处理工具：
  ```
  关键字参数{% url namespace:name key=value key1=value1 %}
  ```
-
- > 定义url： 在根urls中 url(r’^apps/’, include(‘App.urls’, namespace=’app’))在子urls中 url(r’^hello/(\d+)’, views.hello, name=’sayhello’) 在模板中使用:<a href=’{% url ‘app:sayhello’ grade_id%}’> 其中grade_id是参数，其中参数可以使用位置参数，也可以使用关键词参数，和配置urls一样。
+```
+定义url： 在根urls中 url(r’^apps/’, include(‘App.urls’, namespace=’app’))
+在子urls中 url(r’^hello/(\d+)’, views.hello, name=’sayhello’) 
+在模板中使用: < a href=’{% url ‘app:sayhello’ grade_id%}’> 
+其中grade_id是参数，其中参数可以使用位置参数，也可以使用关键词参数，和配置urls一样。
+```
 
 ![反向解析流程](images/django_fanxiang.png)
  
@@ -97,6 +101,7 @@ Django提供了不同的层级的url逆向处理工具：
  ```
 
  3. 在更高一层级的处理url中，用get_absolute_url()方法
+
 
 #### URL的别名
 > 在此需要先引入url的别名，简单的说就是给对应的url路径起了个名字，在views，models,templates中可以使用该名字调用。
