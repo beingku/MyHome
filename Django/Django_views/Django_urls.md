@@ -55,7 +55,7 @@ url(r‘^grade/(\d+)$’, views.getStudent)
 def getStudent(request, classid)
 ```
 
-[流程](images/django_url_patterns.png)
+![流程](images/django_url_patterns.png)
 
 > 网址中多了 (\d+), 正则表达式中 \d 代表一个数字，+ 代表一个或多个前面的字符，写在一起 \d+ 就是一个或多个数字，用括号括起来的意思是保存为一个子组，每一个子组将作为一个参数，被 views.py 中的对应视图函数接收。
 
@@ -65,7 +65,7 @@ def getStudent(request, classid)
 /(?P\d+)$’, views.getNews)
 ```
 
-[流程](images/django_urls_more.png)
+![流程](images/django_urls_more.png)
 
 > ?P<value> 将参数传给views里的对应方法
 
@@ -86,7 +86,7 @@ Django提供了不同的层级的url逆向处理工具：
  ```
 
  > 定义url： 在根urls中 url(r’^apps/’, include(‘App.urls’, namespace=’app’))在子urls中 url(r’^hello/(\d+)’, views.hello, name=’sayhello’) 在模板中使用:<a href=’{% url ‘app:sayhello’ grade_id%}’> 其中grade_id是参数，其中参数可以使用位置参数，也可以使用关键词参数，和配置urls一样 
-[反向解析流程](images/django_redirect_revere.png)
+![反向解析流程](images/django_redirect_revere.png)
  
  2. 在Python代码中，使用django.core.urlresolvers.reverse()方法
  ```
@@ -100,11 +100,11 @@ Django提供了不同的层级的url逆向处理工具：
 
 - 在项目文件的设置
 在include()中加入namespace设置
- [项目文件urls.py](images/namespace.png)
+ ![项目文件urls.py](images/namespace.png)
  
 - 在应用文件的设置
 在url()中加入name设置
- [应用文件urls.py](images/name.png)
+ ![应用文件urls.py](images/name.png)
  
 > 用处：避免因为写“死网址”，会使得在改了网址（正则）后，模板（template)，视图(views.py，比如用于URL跳转)，模型(models.py，获取记录访问地址等）用了此网址的，都必须进行相应的更改，修改的代价很大，一不小心，有的地方没改过来，就不能用了。
 
