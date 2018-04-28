@@ -87,7 +87,7 @@ Django提供了不同的层级的url逆向处理工具：
 
  > 定义url： 在根urls中 url(r’^apps/’, include(‘App.urls’, namespace=’app’))在子urls中 url(r’^hello/(\d+)’, views.hello, name=’sayhello’) 在模板中使用:<a href=’{% url ‘app:sayhello’ grade_id%}’> 其中grade_id是参数，其中参数可以使用位置参数，也可以使用关键词参数，和配置urls一样。
 
-![反向解析流程](images/django_redirect_revere.png)
+![反向解析流程](images/django_fanxiang.png)
  
  2. 在Python代码中，使用django.core.urlresolvers.reverse()方法
  
