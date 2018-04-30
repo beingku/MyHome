@@ -19,3 +19,4 @@
    - [Django模版](Django/Django_templates.md)
    - [Django视图](Django/Django_views)
    		- [Url说明](Django/Django_views/Django_urls.md)
+         - [views使用指南](Django/Django_views.md)
