@@ -1,10 +1,11 @@
 # Django登录/注册/注销功能实现说明
 
 >Author:Sinpei 
->Date: 2018-5-2
+>Date: 2018-5-6
 >CSDN: https://blog.csdn.net/u012581982
 >GitHub: https://github.com/sinpeilee/MyHome
 >Email: sinpeilee@163.com 
+>期待大神拍砖，轻拍……怕疼
 
 ---
 
