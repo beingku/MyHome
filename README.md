@@ -7,10 +7,11 @@
    - [python前言](Python/Python前言.md)
 3. [全栈开发之前端](website_front-end)
    - [基础知识集合](website_front-end/web_basic.md)
-4. [数据库知识集合](sql)
+4. [部署Linux]
+5. [数据库知识集合](sql)
    - [数据库前言](sql/sql_info.md)
    - [SQL语法基础](sql/sql)
-5. [Django开发](Django)
+6. [Django开发](Django)
    - [Django背景知识](Django/Django_bg.md)
    - [Django管理后台](Django/Django_admin.md)
    - [Django模型](Django/Django_models)
@@ -25,6 +26,14 @@
    		- [Django的cookie](Django/Django_login/Django_coo_ses.md)
    		- [Django的中间件与分页](Django/Django_login/Django_plug.md)
    		- [Django的登录/注册模块](Django/Django_login/Django_login.md)
-   - [Django上传文件](Django/Django_upload.md)
    - [Django日志部署](Django/Django_log.md)
    - [Django的rest使用说明](Django/Django_rest.md)
+
+
+## 联系方式
+>Author:Sinpei 
+>Date: 2018-5-6
+>CSDN: https://blog.csdn.net/u012581982
+>GitHub: https://github.com/sinpeilee/MyHome
+>Email: sinpeilee@163.com 
+>期待大神拍砖，轻拍……怕疼
